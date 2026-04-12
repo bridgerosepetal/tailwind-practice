@@ -1,0 +1,17 @@
+@import './reset.css' layer(base);
+@import 'tailwindcss';
+
+@custom-variant phone (@media (width < 768px));
+@custom-variant tablet (@media (768px <= width < 1201px));
+@custom-variant desktop (@media (width >= 1201px));
+
+@theme {
+	--color-mint: #d2f6ec;
+	--color-pink: #fde0ed;
+	--color-cream: #ffeed2;
+	--color-green: #0a8;
+	--color-blue: #0097d4;
+
+	--breakpoint-t: 768px;
+	--breakpoint-d: 1201px;
+}
