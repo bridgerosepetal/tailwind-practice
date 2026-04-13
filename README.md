@@ -3,6 +3,6 @@
 Чтобы запустить:
 
 ```bash
-npm i
+npm ci
 npm run dev
 ```
